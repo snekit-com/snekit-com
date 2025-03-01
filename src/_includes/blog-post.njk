@@ -1,0 +1,20 @@
+---
+layout: base.njk
+---
+
+<div class="blog-post-header">
+  <h1>{{ title }}</h1>
+  <div class="post-meta">{{ page.date | formatDate }} | {{ author }}</div>
+</div>
+
+<div class="blog-post-content">
+  {{ content | safe }}
+</div>
+
+<div class="blog-post-footer">
+  <a href="/blog/" class="back-to-blog">← Back to all posts</a>
+  
+  <div class="contact-section">
+    <p>Want to discuss this topic or learn more about our services? Reach out at <a href="mailto:admin@snek-it.com">admin@snek-it.com</a></p>
+  </div>
+</div>
