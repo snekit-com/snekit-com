@@ -1,5 +1,5 @@
 node_modules/
 _site/
 .DS_Store
-package-lock.json
+# package-lock.json
 draft.*
