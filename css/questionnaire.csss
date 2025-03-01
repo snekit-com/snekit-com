@@ -1,0 +1,212 @@
+/* Questionnaire styles */
+.questionnaire-container {
+  margin: 2rem 0;
+  padding: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  background-color: var(--light);
+}
+
+/* Quiz container */
+.quiz-container {
+  padding: 2rem;
+  background-color: white;
+  border-radius: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.quiz-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+/* Progress bar */
+.progress-container, .score-bar-container {
+  margin-bottom: 1.5rem;
+}
+
+.progress-bar, .score-bar {
+  width: 100%;
+  height: 6px;
+  background-color: #F0F0F0;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+.progress-indicator, .score-indicator {
+  height: 100%;
+  background-color: #333333;
+  transition: width 0.3s ease;
+}
+
+.progress-text {
+  font-size: 0.875rem;
+  color: #666666;
+  margin-top: 0.5rem;
+}
+
+/* Question styles */
+.question-container {
+  margin-bottom: 2rem;
+}
+
+.question-text {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
+}
+
+.options-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+/* Modernized option buttons */
+.option-button {
+  width: 100%;
+  text-align: left;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: inherit;
+  font-size: 1rem;
+  position: relative;
+  line-height: 1.4;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+}
+
+.option-button:hover {
+  background-color: #F5F5F5;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  transform: translateY(-1px);
+}
+
+.option-button:active {
+  transform: translateY(0);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  background-color: #EFEFEF;
+}
+
+.option-button:focus {
+  outline: none;
+  border-color: #333333;
+}
+
+.option-button::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 12px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+}
+
+.option-button:hover::before {
+  border-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Results styles */
+.results-container {
+  margin-bottom: 2rem;
+}
+
+.level-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.feedback-text {
+  color: #666666;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.contact-prompt {
+  padding: 1.5rem;
+  background-color: #F5F5F5;
+  border-left: 3px solid #333333;
+  margin-bottom: 1.5rem;
+}
+
+.prompt-heading {
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.prompt-text {
+  margin-bottom: 1rem;
+}
+
+.contact-link {
+  display: inline-block;
+  color: #333333;
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px solid #666666;
+  transition: border-color 0.2s;
+}
+
+.contact-link:hover {
+  border-color: #333333;
+}
+
+/* Modernized restart button */
+.restart-button {
+  padding: 0.9rem 1.75rem;
+  background-color: #333333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.25s ease;
+  font-family: inherit;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 1rem;
+}
+
+.restart-button:hover {
+  background-color: #444444;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.restart-button:active {
+  transform: translateY(0);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .questionnaire-container {
+    padding: 1rem;
+  }
+  
+  .quiz-container {
+    padding: 1.5rem;
+  }
+  
+  .quiz-title {
+    font-size: 1.25rem;
+  }
+  
+  .question-text {
+    font-size: 1.125rem;
+  }
+  
+  .option-button {
+    padding: 1rem 1.25rem;
+  }
+}
