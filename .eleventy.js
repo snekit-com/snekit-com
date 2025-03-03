@@ -39,7 +39,7 @@ module.exports = function(eleventyConfig) {
   
   // Set custom directories for input, output, includes, and data
   return {
-    pathPrefix: "/snek-it.com/", // This sets the path prefix for GitHub Pages
+    // pathPrefix: "/snek-it.com/", // This sets the path prefix for GitHub Pages
     dir: {
       input: "src",
       includes: "_includes",
