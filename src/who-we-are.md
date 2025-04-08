@@ -5,7 +5,7 @@ title: Who We Are | snek-it
 
 ## Who We Are
 
-snek-it is a small, focused team of technologists committed to helping mission-driven organizations excel through thoughtful technology implementation.
+snek-it is a small, focused team of technologists committed to helping mission-driven organisations excel through thoughtful technology implementation.
 
 ### Our Values
 
@@ -17,7 +17,7 @@ snek-it is a small, focused team of technologists committed to helping mission-d
   
   <div class="value-item">
     <h3>Mission Alignment</h3>
-    <p>We choose to work with organizations making positive social and environmental impact. Your mission becomes our mission.</p>
+    <p>We choose to work with organisations making positive social and environmental impact. Your mission becomes our mission.</p>
   </div>
   
   <div class="value-item">

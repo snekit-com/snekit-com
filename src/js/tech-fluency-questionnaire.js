@@ -1,5 +1,5 @@
 // Tech Fluency Questionnaire
-// This file implements a React-based questionnaire to assess an organization's tech fluency
+// This file implements a React-based questionnaire to assess an organisation's tech fluency
 
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
@@ -21,7 +21,7 @@ const TechFluencyQuestionnaire = () => {
       ]
     },
     {
-      question: "How well does your team understand your organization's technology ecosystem?",
+      question: "How well does your team understand your organisation's technology ecosystem?",
       options: [
         { text: "No understanding", score: 0 },
         { text: "Basic understanding", score: 2 },
@@ -71,7 +71,7 @@ const TechFluencyQuestionnaire = () => {
       ]
     },
     {
-      question: "How confident is your team in evaluating new tech tools for your organization?",
+      question: "How confident is your team in evaluating new tech tools for your organisation?",
       options: [
         { text: "Not at all confident", score: 0 },
         { text: "Slightly confident", score: 2 },
@@ -111,7 +111,7 @@ const TechFluencyQuestionnaire = () => {
       ]
     },
     {
-      question: "How clear is your team on data privacy regulations affecting your organization?",
+      question: "How clear is your team on data privacy regulations affecting your organisation?",
       options: [
         { text: "Not at all clear", score: 0 },
         { text: "Slightly clear", score: 2 },
@@ -141,7 +141,7 @@ const TechFluencyQuestionnaire = () => {
       ]
     },
     {
-      question: "Does your organization have a technology strategy aligned with your mission?",
+      question: "Does your organisation have a technology strategy aligned with your mission?",
       options: [
         { text: "No strategy exists", score: 0 },
         { text: "Basic strategy exists", score: 2 },
@@ -151,7 +151,7 @@ const TechFluencyQuestionnaire = () => {
       ]
     },
     {
-      question: "How well does your team understand potential AI applications for your organization?",
+      question: "How well does your team understand potential AI applications for your organisation?",
       options: [
         { text: "No understanding", score: 0 },
         { text: "Basic understanding", score: 2 },
@@ -193,22 +193,22 @@ const TechFluencyQuestionnaire = () => {
     if (score < 30) {
       return {
         level: "Beginner",
-        feedback: "Your organization is at an early stage of tech fluency. There's significant room for improvement in helping your team understand and leverage technology effectively.",
+        feedback: "Your organisation is at an early stage of tech fluency. There's significant room for improvement in helping your team understand and leverage technology effectively.",
       };
     } else if (score < 60) {
       return {
         level: "Developing",
-        feedback: "Your organization has basic tech fluency, but many team members would benefit from more structured learning opportunities to become more confident with technology.",
+        feedback: "Your organisation has basic tech fluency, but many team members would benefit from more structured learning opportunities to become more confident with technology.",
       };
     } else if (score < 80) {
       return {
         level: "Proficient",
-        feedback: "Your organization has good tech fluency overall, though there are still specific areas where targeted improvements would create significant benefits.",
+        feedback: "Your organisation has good tech fluency overall, though there are still specific areas where targeted improvements would create significant benefits.",
       };
     } else {
       return {
         level: "Advanced",
-        feedback: "Your organization demonstrates strong tech fluency. Your team is comfortable with technology and effectively incorporates it into your work, though there may still be areas for optimization.",
+        feedback: "Your organisation demonstrates strong tech fluency. Your team is comfortable with technology and effectively incorporates it into your work, though there may still be areas for optimization.",
       };
     }
   };
@@ -241,7 +241,7 @@ const TechFluencyQuestionnaire = () => {
           <p className="feedback-text">{feedback.feedback}</p>
           
           <div className="contact-prompt">
-            <p className="prompt-heading">Want to improve your organization's tech fluency?</p>
+            <p className="prompt-heading">Want to improve your organisation's tech fluency?</p>
             <p className="prompt-text">Our team can help you develop a customized tech fluency program that addresses your specific needs and challenges.</p>
             <a href="mailto:admin@snek-it.com" className="contact-link">Contact us to get started</a>
           </div>

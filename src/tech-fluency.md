@@ -3,13 +3,13 @@ layout: base.njk
 title: Tech Fluency | snek-it
 ---
 
-## Tech Fluency in Your Organization
+## Tech Fluency in Your organisation
 
-Building tech fluency within your organization empowers your team to make informed decisions, collaborate effectively, and drive innovation. Our approach helps non-technical staff become comfortable with technology concepts and tools.
+Building tech fluency within your organisation empowers your team to make informed decisions, collaborate effectively, and drive innovation. Our approach helps non-technical staff become comfortable with technology concepts and tools.
 
 ### Assessment Questionnaire
 
-Take our interactive assessment to evaluate your organization's current tech fluency level. Answer 15 questions to receive a personalized score and recommendations.
+Take our interactive assessment to evaluate your organisation's current tech fluency level. Answer 15 questions to receive a personalized score and recommendations.
 
 <style>
 /* Questionnaire styles */
@@ -242,7 +242,7 @@ Take our interactive assessment to evaluate your organization's current tech flu
       <p id="feedback-text" class="feedback-text"></p>
       
       <div class="contact-prompt">
-        <p class="prompt-heading">Want to improve your organization's tech fluency?</p>
+        <p class="prompt-heading">Want to improve your organisation's tech fluency?</p>
         <p class="prompt-text">Our team can help you develop a customized tech fluency program that addresses your specific needs and challenges.</p>
         <a href="mailto:admin@snek-it.com" class="contact-link">Contact us to get started</a>
       </div>
@@ -266,7 +266,7 @@ document.addEventListener('DOMContentLoaded', function() {
       ]
     },
     {
-      question: "How well does your team understand your organization's technology ecosystem?",
+      question: "How well does your team understand your organisation's technology ecosystem?",
       options: [
         { text: "No understanding", score: 0 },
         { text: "Basic understanding", score: 2 },
@@ -316,7 +316,7 @@ document.addEventListener('DOMContentLoaded', function() {
       ]
     },
     {
-      question: "How confident is your team in evaluating new tech tools for your organization?",
+      question: "How confident is your team in evaluating new tech tools for your organisation?",
       options: [
         { text: "Not at all confident", score: 0 },
         { text: "Slightly confident", score: 2 },
@@ -356,7 +356,7 @@ document.addEventListener('DOMContentLoaded', function() {
       ]
     },
     {
-      question: "How clear is your team on data privacy regulations affecting your organization?",
+      question: "How clear is your team on data privacy regulations affecting your organisation?",
       options: [
         { text: "Not at all clear", score: 0 },
         { text: "Slightly clear", score: 2 },
@@ -386,7 +386,7 @@ document.addEventListener('DOMContentLoaded', function() {
       ]
     },
     {
-      question: "Does your organization have a technology strategy aligned with your mission?",
+      question: "Does your organisation have a technology strategy aligned with your mission?",
       options: [
         { text: "No strategy exists", score: 0 },
         { text: "Basic strategy exists", score: 2 },
@@ -396,7 +396,7 @@ document.addEventListener('DOMContentLoaded', function() {
       ]
     },
     {
-      question: "How well does your team understand potential AI applications for your organization?",
+      question: "How well does your team understand potential AI applications for your organisation?",
       options: [
         { text: "No understanding", score: 0 },
         { text: "Basic understanding", score: 2 },
@@ -520,22 +520,22 @@ document.addEventListener('DOMContentLoaded', function() {
     if (score < 30) {
       return {
         level: "Beginner",
-        feedback: "Your organization is at an early stage of tech fluency. There's significant room for improvement in helping your team understand and leverage technology effectively."
+        feedback: "Your organisation is at an early stage of tech fluency. There's significant room for improvement in helping your team understand and leverage technology effectively."
       };
     } else if (score < 60) {
       return {
         level: "Developing",
-        feedback: "Your organization has basic tech fluency, but many team members would benefit from more structured learning opportunities to become more confident with technology."
+        feedback: "Your organisation has basic tech fluency, but many team members would benefit from more structured learning opportunities to become more confident with technology."
       };
     } else if (score < 80) {
       return {
         level: "Proficient",
-        feedback: "Your organization has good tech fluency overall, though there are still specific areas where targeted improvements would create significant benefits."
+        feedback: "Your organisation has good tech fluency overall, though there are still specific areas where targeted improvements would create significant benefits."
       };
     } else {
       return {
         level: "Advanced",
-        feedback: "Your organization demonstrates strong tech fluency. Your team is comfortable with technology and effectively incorporates it into your work, though there may still be areas for optimization."
+        feedback: "Your organisation demonstrates strong tech fluency. Your team is comfortable with technology and effectively incorporates it into your work, though there may still be areas for optimization."
       };
     }
   }
@@ -563,7 +563,7 @@ Tech fluency goes beyond basic digital literacy. It's about understanding:
 <div class="services">
   <div class="service-card">
     <h3>Assessment</h3>
-    <p>We evaluate your team's current tech fluency levels and identify key areas for development that align with your organizational goals.</p>
+    <p>We evaluate your team's current tech fluency levels and identify key areas for development that align with your organisational goals.</p>
   </div>
   
   <div class="service-card">
@@ -585,11 +585,11 @@ Tech fluency goes beyond basic digital literacy. It's about understanding:
 ### Benefits of Tech Fluency
 
 - Better communication between technical and non-technical team members
-- More informed technology decision-making across the organization
+- More informed technology decision-making across the organisation
 - Reduced dependency on technical staff for routine tasks
 - Greater adoption of tools that increase productivity
 - Stronger security culture and practices
 
 <div class="contact-section">
-Ready to build tech fluency in your organization? Get in touch at <a href="mailto:admin@snek-it.com">admin@snek-it.com</a>
+Ready to build tech fluency in your organisation? Get in touch at <a href="mailto:admin@snek-it.com">admin@snek-it.com</a>
 </div>
