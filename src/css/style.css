@@ -1,12 +1,12 @@
 @import 'questionnaire.css';
 :root {
-    --primary: #333333;       /* Dark gray - primary brand color */
-    --secondary: #666666;     /* Medium gray - secondary color */
-    --dark: #111111;          /* Nearly black - text color */
-    --light: #FFFFFF;         /* Pure white - content background */
-    --gray: #999999;          /* Medium gray - secondary text */
-    --bg: #F0F0F0;            /* Light gray - html background */
-    --accent: #DDDDDD;        /* Very light gray - subtle accent */
+    --primary: #FFFFFF;       /* White - primary brand color */
+    --secondary: #CCCCCC;     /* Light gray - secondary color */
+    --dark: #FFFFFF;          /* White - text color */
+    --light: #3F4F44;         /* Dark green - content background */
+    --gray: #AAAAAA;          /* Light gray - secondary text */
+    --bg: #3F4F44;            /* Dark green - html background */
+    --accent: #2A3A2F;        /* Darker green - subtle accent */
 }
 
 * {
@@ -161,10 +161,10 @@ a:hover {
 footer {
     margin-top: 3rem;
     padding: 2.5rem;
-    color: var(--gray);
+    color: var(--secondary);
     font-size: 0.875rem;
     text-align: center;
-    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 /* Service cards */
@@ -177,8 +177,8 @@ footer {
 
 .service-card {
     padding: 1.75rem;
-    background-color: var(--light);
-    border: 1px solid rgba(0, 0, 0, 0.05);
+    background-color: var(--accent);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 0;
     transition: transform 0.2s, box-shadow 0.2s;
 }
@@ -207,7 +207,7 @@ footer {
 /* Contact section */
 .contact-section {
     padding: 2.5rem;
-    background-color: var(--bg);
+    background-color: var(--accent);
     border-radius: 0;
 }
 
@@ -223,8 +223,8 @@ footer {
 
 .team-card {
     padding: 1.75rem;
-    background-color: var(--light);
-    border: 1px solid rgba(0, 0, 0, 0.05);
+    background-color: var(--accent);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
