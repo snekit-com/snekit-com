@@ -3,9 +3,9 @@ layout: base.njk
 title: Tech Fluency | snek-it
 ---
 
-## Tech Fluency in Your organisation
+## Tech Fluency in Your organisation : Driving Digital Transformation
 
-Building tech fluency within your organisation empowers your team to make informed decisions, collaborate effectively, and drive innovation. Our approach helps non-technical staff become comfortable with technology concepts and tools.
+Building tech fluency within your organisation empowers your team to make informed decisions, collaborate effectively, and drive innovation. Our approach helps non-technical staff become comfortable with technology concepts and tools, accelerating your digital transformation journey. We cultivate a data-driven culture that leverages cloud-native solutions and agile methodologies to unlock operational efficiencies and competitive advantages. By bridging the knowledge gap between IT and business units, we enable enterprise-wide digital literacy that catalyzes disruptive innovation and fosters a future-ready workforce positioned for sustainable growth in the evolving tech ecosystem
 
 ### Assessment Questionnaire
 
