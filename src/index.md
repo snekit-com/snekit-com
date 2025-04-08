@@ -18,7 +18,7 @@ title: snek-it | IT Solutions
   
   <div class="service-card">
     <h3>Security Solutions</h3>
-    <p>Protecting your organization's data and digital infrastructure.</p>
+    <p>Protecting your organisation's data and digital infrastructure.</p>
   </div>
   
   <div class="service-card">
@@ -28,7 +28,7 @@ title: snek-it | IT Solutions
   
   <div class="service-card">
     <h3>AI Implementation</h3>
-    <p>Ethical and effective AI solutions tailored to your organization's needs.</p>
+    <p>Ethical and effective AI solutions tailored to your organisation's needs.</p>
   </div>
 </div>
 
@@ -41,5 +41,5 @@ We believe technology should serve people and planet. Our focused team brings ex
 ## Contact
 
 <div class="contact-section">
-Ready to transform your organization's relationship with technology? Get in touch at <a href="mailto:admin@snek-it.com">admin@snek-it.com</a>
+Ready to transform your organisation's relationship with technology? Get in touch at <a href="mailto:admin@snek-it.com">admin@snek-it.com</a>
 </div>
