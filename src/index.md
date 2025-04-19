@@ -7,6 +7,11 @@ title: snek-it | IT Solutions
 
 <div class="services">
   <div class="service-card">
+    <h3>Full MSP</h3>
+    <p>We offer full remote support offerings for organisations. From day to day operations to device provisioning we fully support any remote or office based support at any scale.</p>
+  </div>
+  
+  <div class="service-card">
     <h3>Tech Fluency</h3>
     <p>We help your team understand and embrace technology with confidence.</p>
   </div>
